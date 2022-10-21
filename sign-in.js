@@ -5,5 +5,8 @@ let users = [];
 for (let userOrder = 0; index < users.length; userOrder++) {
   const user = users[userOrder];
   console.log("user : ", element);
-  console.log("done!");
+  const name = { user };
+  if (name === "") {
+    console.log("user doesn't exist ");
+  }
 }
