@@ -5,5 +5,10 @@ let users = [];
 for (let userOrder = 0; index < users.length; userOrder++) {
   const user = users[userOrder];
   console.log("user : ", element);
-  console.log("done!");
+  if (user) {
+    storeUser(user)
+  }
+}
+function storeUser(user) {
+  
 }
