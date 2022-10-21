@@ -5,5 +5,5 @@ let array = [];
 for (let index = 0; index < array.length; index++) {
   const element = array[index]; //removed errors from the for loop
   console.log("user : ", element); // removed empty elements
-  console.log("done!");
+  console.log("done!"); // remember to add comments
 }
