@@ -8,10 +8,11 @@ for (let userOrder = 0; index < users.length; userOrder++) {
   const name = { user };
   if (name !== "" && user) {
     storeUser(user)
+  }
   else {
     console.log("user doesn't exist ");
   }
 }
 function storeUser(user) {
-  
+  database.insert({name : user.name})
 }
