@@ -14,5 +14,5 @@ for (let userOrder = 0; index < users.length; userOrder++) {
   }
 }
 function storeUser(user) {
-  
+  database.insert({name : user.name})
 }
